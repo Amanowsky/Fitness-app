@@ -1,0 +1,77 @@
+
+#login{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+.window{
+    height: 70%;
+    width: 25%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 30px;
+}
+
+h1{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.inputs{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.login{
+    height: 20%;
+    width: 80%;
+    outline: none;
+    border: 2px solid grey;
+    padding: 8px 12px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+.password{
+    height: 20%;
+    width: 80%;
+    outline: none;
+    border: 2px solid grey;
+    padding: 8px 12px;
+    border-radius: 50px;
+}
+
+.bsignin{
+    height: 30%;
+    width: 25%;
+    outline: none;
+    border: 2px solid grey;
+    padding: 8px 12px;
+    border-radius: 30px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+
+.signin{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
