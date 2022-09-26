@@ -18,11 +18,24 @@
         <div class="window">
             <h1>Hello!</h1>
             <div class="inputs">
-                <input type="text" class= "login" placeholder="Login">
-                <input type="password" class="password" placeholder="Password">
+                <span id="bad_login"></span>
+                <input type="text" id='loginbox' class= "login" placeholder="Login">
+                
+                <input type="password" id='passwordbox' class="password" placeholder="Password">
             </div>
-            <div class="signin"><button class="bsignin">Sign in</button></div>
+            <div class="signin"><span id="login_ok"></span><button id='submit-btn' class="bsignin">Sign in</button></div>
         </div>
     </div>
+    <div id="content">
+        <footer>
+            <button class="footer_btn">Kalkulatory</button>
+            <button class="footer_btn">Notes progresu</button>
+            <h2>Fitness App</h2>
+            <button class="footer_btn">Motywator</button>
+            <button class="footer_btn">Top ćwiczenia</button>
+        </footer>
+    </div>
+    <script src="/src/token.js"></script>
+    <script type="module" src="/src/login.js"></script>
 </body>
 </html>

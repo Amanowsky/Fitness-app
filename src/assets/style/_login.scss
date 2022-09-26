@@ -83,5 +83,11 @@
         height: 15%;
         display: flex;
         justify-content: flex-end;
+        position: relative;
     }
+}
+#login_ok{
+    position: absolute;
+    top: 10%;
+    left: 15%;
 }
